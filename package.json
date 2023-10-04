@@ -44,10 +44,16 @@
     },
     "dependencies": {
         "@carbon/react": "^1.36.0",
-        "lodash-es": "^4.17.21"
+        "lodash-es": "^4.17.21",
+        "moment": "^2.29.3",
+        "react-image-annotate": "^1.8.0",
+        "semver": "^7.3.7",
+        "systemjs-webpack-interop": "^2.3.7",
+        "yup": "^0.29.1"
     },
     "peerDependencies": {
         "@openmrs/esm-framework": "*",
+        "@openmrs/esm-patient-common-lib": "*",
         "dayjs": "1.x",
         "plotly.js": "2.x",
         "react": "18.x",
@@ -58,6 +64,7 @@
     "devDependencies": {
         "@openmrs/esm-extensions": "next",
         "@openmrs/esm-framework": "next",
+        "@openmrs/esm-patient-common-lib": "next",
         "@openmrs/esm-react-utils": "next",
         "@openmrs/esm-styleguide": "next",
         "@swc/cli": "^0.1.62",
@@ -74,6 +81,7 @@
         "@types/react-router-dom": "^5.3.3",
         "@types/webpack-env": "^1.18.1",
         "@typescript-eslint/parser": "^5.59.9",
+        "@ugandaemr/esm-ugandaemr-commons-lib": "next",
         "carbon-components-react": "^8.34.0",
         "concurrently": "^7.6.0",
         "css-loader": "^6.8.1",

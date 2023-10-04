@@ -61,7 +61,8 @@ import {
 } from "./reporting.resource";
 import dayjs from "dayjs";
 import { showToast } from "@openmrs/esm-framework";
-import ItemSelector from "../item-selector/item-selector.component";
+// import ItemSelector from "../item-selector/item-selector.component";
+import { ItemSelector } from "@ugandaemr/esm-ugandaemr-commons-lib/src/index";
 
 type ChartType = "list" | "pivot" | "line" | "bar" | "pie";
 type ReportType = "fixed" | "dynamic";

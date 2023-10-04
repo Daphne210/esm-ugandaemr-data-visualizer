@@ -5,8 +5,8 @@ import { ArrowLeft, ArrowRight } from "@carbon/react/icons";
 import { Button } from "@carbon/react";
 
 interface ItemSelectorProps {
-  availableParameters: any[];
-  selectedParameters: any[];
+  availableParameters: Array<Indicator>;
+  selectedParameters: Array<Indicator>;
   moveFromLeftToRight: (indicator: Indicator) => void;
   moveFromRightToLeft: (indicator: Indicator) => void;
   moveAllParametersLeft: () => void;
