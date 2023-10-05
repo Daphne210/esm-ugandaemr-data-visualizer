@@ -18,6 +18,9 @@
     ],
     "resolveJsonModule": true,
     "noEmit": true,
-    "target": "esnext"
+    "target": "esnext",
+    "paths": {
+      "@ugandaemr/esm-ugandaemr-commons-lib/*": ["node_modules/@ugandaemr/esm-ugandaemr-commons-lib"]
+    }
   }
 }
